@@ -1,5 +1,5 @@
 import {
-    NCoreProvider
+    NCoreProvider, useNCoreTheme
 } from "ncore-web";
 import themes from "./themes";
 import locales from "./locales";
@@ -8,12 +8,28 @@ import Navigation from "./navigation";
 import {
     Header
 } from "./components";
+import { MENU } from "./constants";
+import SideMenu from "./components/sideMenu";
 
 const App = () => {
-    useStyles();
+    const {
+        colors
+    } = useNCoreTheme();
+
+    useStyles({
+        theme: {
+            aTagHoverColorKey: "primary",
+            colors
+        }
+    });
 
     return <div>
-        <Header/>
+        <Header
+            menuData={MENU}
+        />
+        <SideMenu
+            data={MENU}
+        />
         <Navigation/>
     </div>;
 }

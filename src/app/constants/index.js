@@ -1,14 +1,17 @@
 export const MENU = [
     {
-        key: "home",
+        titleLocalizationKey: "home",
+        key: "/",
         path: "/"
     },
     {
-        key: "about",
+        titleLocalizationKey: "about",
+        key: "/about",
         path: "/about"
     },
     {
-        key: "contact",
+        titleLocalizationKey: "contact",
+        key: "/contact",
         path: "/contact"
     }
 ];
