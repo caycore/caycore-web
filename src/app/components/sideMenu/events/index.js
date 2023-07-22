@@ -8,7 +8,6 @@ class SideMenuController {
     };
 
     addEventListener = (name, subscriber) => {
-        console.log(name);
         this.subscribers.push({
             name: name,
             func: subscriber

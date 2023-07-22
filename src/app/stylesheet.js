@@ -7,6 +7,10 @@ import {
 
 const useStyles = createUseStyles((params) => {
     return {
+        container: {
+            height: "100%",
+            width: "100%"
+        },
         "@global": {
             "@font-face": [
                 {
