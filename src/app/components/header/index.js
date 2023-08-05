@@ -19,7 +19,7 @@ const Header = ({
         <div
             className={classes.contentContainer}
             style={{
-                backgroundColor: colors.layer1
+                backgroundColor: colors.panel
             }}
         >
             <div

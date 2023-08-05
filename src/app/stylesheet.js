@@ -8,6 +8,7 @@ import {
 const useStyles = createUseStyles((params) => {
     return {
         container: {
+            backgroundColor: "#e3e3e3",
             height: "100%",
             width: "100%"
         },
