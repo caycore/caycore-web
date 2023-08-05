@@ -29,6 +29,8 @@ const typography = {
 const colors = {
     primary: "#FF001F",
     secondary: "#FFFFFF",
+    modalContentWithOpacity: "rgb(33, 33, 33, 0.85)",
+    slogan: "#2e2e2e",
     body: "#F5F5F5"
 };
 
